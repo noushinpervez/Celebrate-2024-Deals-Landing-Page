@@ -1,0 +1,418 @@
+/* shared styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+.merriweather {
+    font-family: 'Merriweather', serif;
+}
+
+header,
+main {
+    margin: 0 auto;
+    max-width: 1320px;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* header section styles */
+.header {
+    background-image: linear-gradient(180deg, #070211, rgba(7, 2, 17, 0.00)), url("../resources/Banner\ Image.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+    margin-top: 50px;
+}
+
+.banner {
+    padding: 177px 344px;
+    text-align: center;
+}
+
+.banner-happy-new-year {
+    color: #FFF;
+    font-size: 32px;
+    margin-bottom: 0;
+}
+
+.banner-title {
+    color: #FFF;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    margin-top: 16px;
+}
+
+/* main section styles */
+section {
+    margin-top: 120px;
+}
+
+/* new year offers styles */
+.offer {
+    text-align: center;
+}
+
+.offer-title {
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.offer-description {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 48px;
+}
+
+.offer-categories {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+/* invitation styles */
+.invitation {
+    background-image: linear-gradient(90deg, #070211, rgba(7, 2, 17, 0.00)), url("../resources/Vectorrr.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+    display: flex;
+    gap: 35px;
+    justify-content: left;
+    padding: 65px 130px;
+}
+
+.invitation-column {
+    width: 65%;
+}
+
+.invitation-title {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    margin-bottom: 0;
+    padding-top: 60px;
+}
+
+.invitation-description {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 24px;
+}
+
+.join-party {
+    border: 0;
+    background-color: transparent;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 48px;
+    padding-left: 30px;
+    text-transform: uppercase;
+}
+
+/* location information styles */
+.location {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10), rgba(255, 0, 0, 0.00));
+    text-align: center;
+}
+
+.location-info {
+    color: #070211;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    margin-bottom: 0;
+    padding: 100px 385px 214px;
+    text-transform: capitalize;
+}
+
+.info {
+    color: #F00;
+}
+
+.register {
+    background: #F00;
+    border: 0;
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 48px;
+    padding: 16px 32px;
+    text-transform: uppercase;
+}
+
+/* new best offer is coming soon styles */
+.best-offer {
+    align-items: center;
+    display: flex;
+    gap: 118px;
+    justify-content: space-between;
+}
+
+.offer-column {
+    width: 35%;
+}
+
+.celebration {
+    border-radius: 463px;
+    border: 15px solid #F00;
+    padding: 27px;
+}
+
+.best-offer-head {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.best-offer-title {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+
+.description {
+    color: rgba(7, 2, 17, 0.60);
+    line-height: 32px;
+    margin-bottom: 43px;
+}
+
+.year-head {
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+/* holidays sale banner styles */
+.holiday-sale {
+    text-align: center;
+}
+
+.sale-head {
+    color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.sale-title {
+    color: #070211;
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 28px;
+}
+
+.sale-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-weight: 500;
+    line-height: 32px;
+    margin-top: 0;
+    padding: 0 252px;
+}
+
+.image-container {
+    background-image: url("../resources/Rectangle\ 2.png"), url("../resources/Rectangle\ 1.png");
+    background-repeat: no-repeat;
+    background-position: bottom, top right;
+    display: flex;
+    justify-content: left;
+    margin-top: 64px;
+    max-height: 662px;
+}
+
+.discount {
+    padding-top: 98px;
+    margin-left: -40px;
+}
+
+/* product portfolio styles */
+.portfolio-head {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.portfolio-title {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 16px;
+}
+
+.portfolio-description {
+    color: rgba(7, 2, 17, 0.60);
+    line-height: 32px;
+    margin-top: 22px;
+    max-width: 70%;
+}
+
+.product-column {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+
+/* newsletter styles */
+.newsletter {
+    border-radius: 16px;
+    background-color: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.newsletter-content {
+    padding: 80px 210px;
+}
+
+.newsletter-head {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 40px;
+    text-transform: capitalize;
+}
+
+.newsletter-description {
+    color: rgba(7, 2, 17, 0.60);
+    line-height: 32px;
+    margin-top: 22px;
+}
+
+.newsletter-subscribe {
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 48px;
+    width: 100%;
+}
+
+.newsletter-box {
+    border: 0;
+    border-radius: 50px 0 0 50px;
+    color: rgba(7, 2, 17, 0.30);
+    font-size: 18px;
+    padding: 25px 30px;
+    width: 40%;
+}
+
+.subscribe {
+    background: #F00;
+    border: 0;
+    border-radius: 0px 50px 50px 0px;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 24px 56px;
+}
+
+/* footer section styles */
+/* contact information styles */
+footer {
+    background: #070211;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding: 120px 140px 50px;
+}
+
+.footer-column {
+    width: 70%;
+}
+
+.footer-content {
+    color: #FFF;
+    display: inline-block;
+    line-height: 40px;
+    max-width: 375px;
+    text-decoration: none;
+}
+
+.icon {
+    display: inline-block;
+    padding-right: 16px;
+    vertical-align: text-bottom;
+}
+
+/* social links styles */
+.social {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin: 48px;
+}
+
+/* misc styles */
+.misc {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 0px 120px 140px;
+}
+
+.misc-content {
+    color: #FFF;
+}
+
+.unsubscribe {
+    border: 0;
+    background-color: transparent;
+    font-size: 24px;
+    padding-right: 140px;
+}
+
+/* horizontal line */
+hr {
+    border: 0;
+    color: #FFFFFF26;
+    background: rgba(255, 255, 255, 0.15);
+    height: 1px;
+    margin: 0 auto;
+    width: 1320px;
+}
+
+/* hover-effect */
+.product-column img,
+.social img,
+.contact a,
+body button[type=button] {
+    transition: transform 1s ease;
+}
+
+.product-column img:hover,
+.social img:hover,
+.contact a:hover,
+body button[type=button]:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+}
